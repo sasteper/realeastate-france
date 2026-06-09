@@ -2,7 +2,7 @@
 
 **Author:** Sasha Stepanenko  
 **License:** MIT  
-**Dataset:** IAD France / beauxvillages.com  
+**Dataset:** IAD France / https://www.iadfrance.fr/
 **Date:** June 2026
 
 ---
@@ -11,7 +11,7 @@
 
 ### Source and method
 
-Data was scraped from the IAD France real estate portal (beauxvillages.com) using a custom Python scraper built with `requests` and `BeautifulSoup4`. The scraper navigated paginated listing pages using a `?start=N` URL parameter and extracted both listing-level and detail-page features for each property.
+Data was scraped from the IAD France real estate portal (https://www.iadfrance.fr/) using a custom Python scraper built with `requests` and `BeautifulSoup4`. The scraper navigated paginated listing pages using a `?start=N` URL parameter and extracted both listing-level and detail-page features for each property.
 
 To ensure robustness against network interruptions, the scraper implemented a checkpoint/resume system: progress was saved to `progress.json` every 20 listings, and the output was written incrementally to `iad_full.csv`.
 
