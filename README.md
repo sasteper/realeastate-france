@@ -2,7 +2,17 @@
 
 > *How much is that house in the Loire Valley actually worth?*
 
-A desktop application that estimates property prices in France using real listings scraped from IAD France. Enter a few details about a property — size, energy rating, amenities — and get an instant price estimate with a confidence range.
+A desktop application that estimates property prices in France using real listings scraped from IAD France. Enter a few details about a property — size, energy rating, amenities — and get an instant price estimate with a confidence range. 
+
+
+## Disclaimer
+
+This project was created solely for educational purposes as part of an academic assignment.  
+
+All data used in this project was collected from publicly available sources.  
+The author does not claim ownership of any external data and does not intend to violate any copyright or intellectual property rights.  
+
+This project is not intended for commercial use.
 
 **Author:** Sasha Stepanenko | **License:** MIT
 
