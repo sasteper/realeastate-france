@@ -28,8 +28,8 @@ The app returns:
 
 ### Step 1 — Collecting the data
 
-There's no public API for French real estate data, so the data was collected by scraping [beauxvillages.com](https://beauxvillages.com) (IAD France's listing portal). A custom Python scraper visited 100 pages and collected **2,959 listings**, extracting prices, surface areas, locations, energy ratings, and photos.
-
+There's no public API for French real estate data, so the data was collected by scraping https://www.iadfrance.fr/ (IAD France's listing portal). A custom Python scraper visited 100 pages and collected **2,959 listings**, extracting prices, surface areas, locations, energy ratings, and photos.
+Th
 To extract richer features, the scraper also read the listing descriptions and used a simple **vocabulary-based approach** — scanning for keywords like *"piscine"* (pool), *"vue mer"* (sea view), *"travaux"* (needs work) — to create binary feature flags. No AI was used for this step, just a dictionary of French words.
 
 After removing duplicates and outliers, **2,837 clean listings** remained.
