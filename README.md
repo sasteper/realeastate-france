@@ -159,3 +159,13 @@ python -m pytest mojaaplkacja/tests/test_all.py -v
 ## Technologies used
 
 `Python` · `Flet` · `scikit-learn` · `statsmodels` · `pandas` · `BeautifulSoup4` · `SQLite` · `pytest` · `pdoc`
+
+
+## Disclaimer
+
+This project is intended for educational purposes only.  
+It does not aim to violate any copyright or intellectual property rights.  
+All data used in this project comes from publicly available sources.  
+
+This project is not intended for commercial use.
+``
