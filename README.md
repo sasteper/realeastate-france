@@ -21,7 +21,6 @@ The app returns:
 - **A valuation label** — is this price a bargain, average, or overpriced?
 - **5 similar real listings** from the dataset with links to the original IAD France pages
 
-![App screenshot](docs/screenshot.png)
 
 ---
 
